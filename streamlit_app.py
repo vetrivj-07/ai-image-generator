@@ -15,7 +15,7 @@ st.write("Generate high-quality images from text prompts using Stable Diffusion.
 # -----------------------
 # Hugging Face Token (from env variable or secret)
 # -----------------------
-HF_TOKEN = os.getenv(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)
+HF_TOKEN = os.getenv("haggingFace_Token")
 if not HF_TOKEN:
     st.error("Hugging Face token not found. Please set HUGGINGFACE_TOKEN environment variable or secret.")
     st.stop()
